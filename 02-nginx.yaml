@@ -2,7 +2,7 @@
   hosts: frontend
   tasks:
   - name: install nginx
-    ansibile.builtin.yum:
+    ansible.builtin.yum:
       name: nginx
       state: present
 
