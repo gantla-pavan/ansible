@@ -1,5 +1,5 @@
 - name: ping the server 
-  hosts: catalogue # which server you are connecting to
+  hosts: web # which server you are connecting to
   # List of modules
   tasks:
   - name: ping
