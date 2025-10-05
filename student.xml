@@ -1,0 +1,43 @@
+</Students>
+    <Student>
+    <Name>Gantla pavan</Name>
+    <DOB>17-05-1997</DOB>
+    <AGE>28</age>
+    <Addresses>
+        <Address type="PERM">
+            <DoorNo>16-1-134/1 <DoorNo>
+            <Street>Vijaya nagar</Street>
+            <Address>
+            <Address type="Current">
+            <DoorNo>16-1-134/1 <DoorNo>
+            <Street>Vijaya nagar</Street>
+            <Address>
+    </Addresses>
+    </Skills>
+        </Skill>ETL</Skill>
+        </Skill>DevOps</Skill>
+        </Skill>Cloud</Skill>
+    </Skills>
+</Student>
+
+<Student>
+    <Name>Ramesh</Name>
+    <DOB>17-05-1997</DOB>
+    <AGE>28</age>
+    <Addresses>
+        <Address type="PERM">
+            <DoorNo>16-1-134/1 <DoorNo>
+            <Street>Vijaya nagar</Street>
+            <Address>
+            <Address type="Current">
+            <DoorNo>16-1-134/1 <DoorNo>
+            <Street>Vijaya nagar</Street>
+            <Address>
+    </Addresses>
+    </Skills>
+        </Skill>ETL</Skill>
+        </Skill>DevOps</Skill>
+        </Skill>Cloud</Skill>
+        </Skills>
+    </Student>
+</Students>
