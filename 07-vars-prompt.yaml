@@ -1,0 +1,12 @@
+- nmae: variables from prompt
+  hosts: local
+  connection: local
+  vars_propmt:
+  - name: username
+    prompt: What is your username?
+    private: false
+  tasks:
+  - name: print credentials
+    ansibile.builtin.debug:
+      msg: "Hello, username is: {{ username }}"
+
