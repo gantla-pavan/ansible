@@ -1,4 +1,4 @@
-- nmae: variables from prompt
+- name: variables from prompt
   hosts: local
   connection: local
   vars_propmt:
@@ -9,6 +9,8 @@
   - name: print credentials
     ansibile.builtin.debug:
       msg: "Hello, username is: {{ username }}"
+
+
 
 
 
