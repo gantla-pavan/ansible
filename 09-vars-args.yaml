@@ -8,4 +8,8 @@
       msg: "Course Name is: {{ COURSE }}, Duration: {{ DURATION }}, Trainer: {{ TRAINER }}"
 
 
+
+
+
+
       
