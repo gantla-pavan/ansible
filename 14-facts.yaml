@@ -3,10 +3,10 @@
   connection: local
   tasks:
     - name: install nginx if redhat
-      ansibile.buitindebug:
+      ansibile.builtin.debug:
         name: nginx
         state: latest
       when: ansible_os_family == "Redhat" # use ansible_ while referring the facts
 
 
-      
+
