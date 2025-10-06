@@ -5,10 +5,9 @@
   - name: print names
     ansible.builtin.debug:
       msg: "Hello {{ item }}" # item is reserved
-      loop:
+    loop:
       - Ramesh
       - Suresh
       - pavan
       - kapaul
 
-      
