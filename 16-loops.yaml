@@ -4,12 +4,12 @@
   tasks:
   - name: print names
     ansible.builtin.packages:
-    name: "{{ item }}"
-    state: latest
+      name: "{{ item }}"
+      state: latest
     loop:
-      - nginx
-      - mysql
-      - zip
+    - nginx
+    - mysql
+    - zip
 
 
 
