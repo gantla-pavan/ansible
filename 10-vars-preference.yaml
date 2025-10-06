@@ -5,14 +5,19 @@
   NAME: from play level
   vars_files:
   - course.yaml
+  vars_prompt:
+  - name: NAME
+    prompt: What is your name?
+    private: false
   tasks:
   - name: testing variables preference
-    vars: 
-    NAME: from task level
+    vars:
+      NAME: from task level
     ansible.builtin.debug:
      msg: "name: {{ NAME }}"
 
 
 
 
-     
+
+
