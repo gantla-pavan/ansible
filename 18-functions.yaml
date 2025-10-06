@@ -10,7 +10,7 @@
 
   # string to lists
   - name: convert string to list
-  ansible.builtin.debug:
-  msg: "Technologies are: {{ technologies | split(',')}}"
+    ansible.builtin.debug:
+      msg: "Technologies are: {{ technologies | split(',')}}"
 
 
